@@ -1,11 +1,14 @@
 {
+  "homepage": "https://kamus1.github.io/visual-chess-openings-tree/",
   "name": "visual-chess-openings-tree",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite dist",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
