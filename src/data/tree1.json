@@ -1,0 +1,87 @@
+{
+  "id": "0",
+  "name": "Initial Position",
+  "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+  "children": [
+    {
+      "id": "1",
+      "name": "Move 1",
+      "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+      "children": [
+        {
+          "id": "2",
+          "name": "Move 2",
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+          "children": [
+            {
+              "id": "3",
+              "name": "Move 3",
+              "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+              "children": [
+                {
+                  "id": "4",
+                  "name": "Move 4",
+                  "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+                  "children": [
+                    {
+                      "id": "5",
+                      "name": "Move 5",
+                      "fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+                      "children": [
+                        {
+                          "id": "6",
+                          "name": "Move 6",
+                          "fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4",
+                          "children": [
+                            {
+                              "id": "12",
+                              "name": "Move 7",
+                              "fen": "r1bqkbnr/1ppp1ppp/p1n5/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 1 4",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "7",
+                          "name": "Move 1",
+                          "fen": "r1bqkb1r/pppp1ppp/2n2n2/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+                          "children": [
+                            {
+                              "id": "8",
+                              "name": "Move 2",
+                              "fen": "r1bqkb1r/pppp1ppp/2B2n2/4p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 0 4",
+                              "children": [
+                                {
+                                  "id": "9",
+                                  "name": "Move 3",
+                                  "fen": "r1bqkb1r/p1pp1ppp/2p2n2/4p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 5",
+                                  "children": []
+                                },
+                                {
+                                  "id": "10",
+                                  "name": "Move 1",
+                                  "fen": "r1bqkb1r/ppp2ppp/2p2n2/4p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 5",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "11",
+                          "name": "Move 1",
+                          "fen": "r1bqkbnr/ppp2ppp/2n5/1B1pp3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq d6 0 4",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -15,7 +15,6 @@ function App() {
   const [chess, setChess] = useState(new Chess());
   const [components, setComponents] = useState<{ id: number }[]>([]);
 
-  // Función para agregar un nuevo componente
   const addComponent = useCallback(() => {
     setComponents(prevComponents => [...prevComponents, { id: prevComponents.length + 1 }]);
   }, []);

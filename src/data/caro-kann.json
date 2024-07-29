@@ -1,0 +1,687 @@
+{
+  "id": "0",
+  "name": "Initial Position",
+  "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+  "children": [
+    {
+      "id": "1",
+      "name": "Move 1",
+      "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+      "children": [
+        {
+          "id": "2",
+          "name": "Move 2",
+          "fen": "rnbqkbnr/pp1ppppp/2p5/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "children": [
+            {
+              "id": "3",
+              "name": "Move 3",
+              "fen": "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3 0 2",
+              "children": [
+                {
+                  "id": "4",
+                  "name": "Move 4",
+                  "fen": "rnbqkbnr/pp2pppp/2p5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq d6 0 3",
+                  "children": [
+                    {
+                      "id": "5",
+                      "name": "Move 5",
+                      "fen": "rnbqkbnr/pp2pppp/2p5/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
+                      "children": [
+                        {
+                          "id": "6",
+                          "name": "Move 6",
+                          "fen": "rnbqkbnr/pp2pppp/8/2ppP3/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 0 4",
+                          "children": [
+                            {
+                              "id": "7",
+                              "name": "Move 7",
+                              "fen": "rnbqkbnr/pp2pppp/8/2ppP3/3P4/2P5/PP3PPP/RNBQKBNR b KQkq - 0 4",
+                              "children": [
+                                {
+                                  "id": "8",
+                                  "name": "Move 8",
+                                  "fen": "r1bqkbnr/pp2pppp/2n5/2ppP3/3P4/2P5/PP3PPP/RNBQKBNR w KQkq - 1 5",
+                                  "children": [
+                                    {
+                                      "id": "9",
+                                      "name": "Move 9",
+                                      "fen": "r1bqkbnr/pp2pppp/2n5/2ppP3/3P4/2P2N2/PP3PPP/RNBQKB1R b KQkq - 2 5",
+                                      "children": [
+                                        {
+                                          "id": "53",
+                                          "name": "Move 10",
+                                          "fen": "r1bqkbnr/pp2pppp/2n5/3pP3/3p4/2P2N2/PP3PPP/RNBQKB1R w KQkq - 0 6",
+                                          "children": [
+                                            {
+                                              "id": "64",
+                                              "name": "Move 11",
+                                              "fen": "r1bqkbnr/pp2pppp/2n5/3pP3/3P4/5N2/PP3PPP/RNBQKB1R b KQkq - 0 6",
+                                              "children": [
+                                                {
+                                                  "id": "65",
+                                                  "name": "Move 12",
+                                                  "fen": "r2qkbnr/pp2pppp/2n5/3pP3/3P2b1/5N2/PP3PPP/RNBQKB1R w KQkq - 1 7",
+                                                  "children": [
+                                                    {
+                                                      "id": "66",
+                                                      "name": "Move 13",
+                                                      "fen": "r2qkbnr/pp2pppp/2n5/3pP3/3P2b1/5N1P/PP3PP1/RNBQKB1R b KQkq - 0 7",
+                                                      "children": [
+                                                        {
+                                                          "id": "97",
+                                                          "name": "Move 14",
+                                                          "fen": "r2qkbnr/pp2pppp/2n5/3pP3/3P4/5b1P/PP3PP1/RNBQKB1R w KQkq - 0 8",
+                                                          "children": [
+                                                            {
+                                                              "id": "98",
+                                                              "name": "Move 15",
+                                                              "fen": "r2qkbnr/pp2pppp/2n5/3pP3/3P4/5Q1P/PP3PP1/RNB1KB1R b KQkq - 0 8",
+                                                              "children": [
+                                                                {
+                                                                  "id": "99",
+                                                                  "name": "Move 16",
+                                                                  "fen": "r2qkbnr/pp2pppp/8/3pP3/3n4/5Q1P/PP3PP1/RNB1KB1R w KQkq - 0 9",
+                                                                  "children": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": "67",
+                                                      "name": "Move 1",
+                                                      "fen": "r2qkbnr/pp2pppp/2n5/3pP3/3P2b1/5N2/PP2BPPP/RNBQK2R b KQkq - 2 7",
+                                                      "children": [
+                                                        {
+                                                          "id": "68",
+                                                          "name": "Move 2",
+                                                          "fen": "r2qkbnr/pp3ppp/2n1p3/3pP3/3P2b1/5N2/PP2BPPP/RNBQK2R w KQkq - 0 8",
+                                                          "children": [
+                                                            {
+                                                              "id": "69",
+                                                              "name": "Move 3",
+                                                              "fen": "r2qkbnr/pp3ppp/2n1p3/3pP3/3P2b1/5N2/PP2BPPP/RNBQ1RK1 b kq - 1 8",
+                                                              "children": [
+                                                                {
+                                                                  "id": "70",
+                                                                  "name": "Move 4",
+                                                                  "fen": "r2qkb1r/pp2nppp/2n1p3/3pP3/3P2b1/5N2/PP2BPPP/RNBQ1RK1 w kq - 2 9",
+                                                                  "children": [
+                                                                    {
+                                                                      "id": "77",
+                                                                      "name": "Move 5",
+                                                                      "fen": "r2qkb1r/pp2nppp/2n1p3/3pP3/3P2b1/4BN2/PP2BPPP/RN1Q1RK1 b kq - 3 9",
+                                                                      "children": [
+                                                                        {
+                                                                          "id": "78",
+                                                                          "name": "Move 6",
+                                                                          "fen": "r2qkb1r/pp3ppp/2n1p3/3pPn2/3P2b1/4BN2/PP2BPPP/RN1Q1RK1 w kq - 4 10",
+                                                                          "children": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "id": "71",
+                                                                  "name": "Move 1",
+                                                                  "fen": "r2qkbnr/pp3ppp/2n1p3/3pP3/3P4/5b2/PP2BPPP/RNBQ1RK1 w kq - 0 9",
+                                                                  "children": [
+                                                                    {
+                                                                      "id": "72",
+                                                                      "name": "Move 2",
+                                                                      "fen": "r2qkbnr/pp3ppp/2n1p3/3pP3/3P4/5B2/PP3PPP/RNBQ1RK1 b kq - 0 9",
+                                                                      "children": [
+                                                                        {
+                                                                          "id": "73",
+                                                                          "name": "Move 3",
+                                                                          "fen": "r3kbnr/pp3ppp/1qn1p3/3pP3/3P4/5B2/PP3PPP/RNBQ1RK1 w kq - 1 10",
+                                                                          "children": [
+                                                                            {
+                                                                              "id": "74",
+                                                                              "name": "Move 4",
+                                                                              "fen": "r3kbnr/pp3ppp/1qn1p3/3pP3/3P4/4BB2/PP3PPP/RN1Q1RK1 b kq - 2 10",
+                                                                              "children": [
+                                                                                {
+                                                                                  "id": "75",
+                                                                                  "name": "Move 5",
+                                                                                  "fen": "r3kbnr/pp3ppp/2n1p3/3pP3/3P4/4BB2/Pq3PPP/RN1Q1RK1 w kq - 0 11",
+                                                                                  "children": [
+                                                                                    {
+                                                                                      "id": "76",
+                                                                                      "name": "Move 6",
+                                                                                      "fen": "r3kbnr/pp3ppp/2n1p3/3pP3/3P4/4BB2/Pq1N1PPP/R2Q1RK1 b kq - 1 11",
+                                                                                      "children": []
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": "79",
+                                                      "name": "Move 1",
+                                                      "fen": "r2qkbnr/pp2pppp/2n5/1B1pP3/3P2b1/5N2/PP3PPP/RNBQK2R b KQkq - 2 7",
+                                                      "children": [
+                                                        {
+                                                          "id": "80",
+                                                          "name": "Move 2",
+                                                          "fen": "r2qkbnr/pp3ppp/2n1p3/1B1pP3/3P2b1/5N2/PP3PPP/RNBQK2R w KQkq - 0 8",
+                                                          "children": [
+                                                            {
+                                                              "id": "81",
+                                                              "name": "Move 3",
+                                                              "fen": "r2qkbnr/pp3ppp/2n1p3/1B1pP3/3P2b1/5N2/PP3PPP/RNBQ1RK1 b kq - 1 8",
+                                                              "children": [
+                                                                {
+                                                                  "id": "82",
+                                                                  "name": "Move 4",
+                                                                  "fen": "r2qkb1r/pp2nppp/2n1p3/1B1pP3/3P2b1/5N2/PP3PPP/RNBQ1RK1 w kq - 2 9",
+                                                                  "children": [
+                                                                    {
+                                                                      "id": "83",
+                                                                      "name": "Move 5",
+                                                                      "fen": "r2qkb1r/pp2nppp/2n1p3/1B1pP3/3P2b1/5N2/PP1N1PPP/R1BQ1RK1 b kq - 3 9",
+                                                                      "children": [
+                                                                        {
+                                                                          "id": "84",
+                                                                          "name": "Move 6",
+                                                                          "fen": "r3kb1r/pp2nppp/1qn1p3/1B1pP3/3P2b1/5N2/PP1N1PPP/R1BQ1RK1 w kq - 4 10",
+                                                                          "children": [
+                                                                            {
+                                                                              "id": "85",
+                                                                              "name": "Move 7",
+                                                                              "fen": "r3kb1r/pp2nppp/1qB1p3/3pP3/3P2b1/5N2/PP1N1PPP/R1BQ1RK1 b kq - 0 10",
+                                                                              "children": [
+                                                                                {
+                                                                                  "id": "96",
+                                                                                  "name": "Move 8",
+                                                                                  "fen": "r3kb1r/pp3ppp/1qn1p3/3pP3/3P2b1/5N2/PP1N1PPP/R1BQ1RK1 w kq - 0 11",
+                                                                                  "children": []
+                                                                                }
+                                                                              ]
+                                                                            },
+                                                                            {
+                                                                              "id": "86",
+                                                                              "name": "Move 1",
+                                                                              "fen": "r3kb1r/pp2nppp/1qn1p3/1B1pP3/Q2P2b1/5N2/PP1N1PPP/R1B2RK1 b kq - 5 10",
+                                                                              "children": [
+                                                                                {
+                                                                                  "id": "87",
+                                                                                  "name": "Move 2",
+                                                                                  "fen": "r3kb1r/1p2nppp/pqn1p3/1B1pP3/Q2P2b1/5N2/PP1N1PPP/R1B2RK1 w kq - 0 11",
+                                                                                  "children": [
+                                                                                    {
+                                                                                      "id": "88",
+                                                                                      "name": "Move 3",
+                                                                                      "fen": "r3kb1r/1p2nppp/pqn1p3/1B1pP3/Q2P2b1/5N1P/PP1N1PP1/R1B2RK1 b kq - 0 11",
+                                                                                      "children": [
+                                                                                        {
+                                                                                          "id": "89",
+                                                                                          "name": "Move 4",
+                                                                                          "fen": "r3kb1r/1p2nppp/pqn1p3/1B1pP2b/Q2P4/5N1P/PP1N1PP1/R1B2RK1 w kq - 1 12",
+                                                                                          "children": [
+                                                                                            {
+                                                                                              "id": "90",
+                                                                                              "name": "Move 5",
+                                                                                              "fen": "r3kb1r/1p2nppp/pqn1p3/3pP2b/Q2P4/5N1P/PP1NBPP1/R1B2RK1 b kq - 2 12",
+                                                                                              "children": [
+                                                                                                {
+                                                                                                  "id": "91",
+                                                                                                  "name": "Move 6",
+                                                                                                  "fen": "r3kb1r/1p3ppp/pqn1p3/3pPn1b/Q2P4/5N1P/PP1NBPP1/R1B2RK1 w kq - 3 13",
+                                                                                                  "children": [
+                                                                                                    {
+                                                                                                      "id": "92",
+                                                                                                      "name": "Move 7",
+                                                                                                      "fen": "r3kb1r/1p3ppp/pqn1p3/3pPn1b/Q2P2P1/5N1P/PP1NBP2/R1B2RK1 b kq g3 0 13",
+                                                                                                      "children": [
+                                                                                                        {
+                                                                                                          "id": "93",
+                                                                                                          "name": "Move 8",
+                                                                                                          "fen": "r3kb1r/1p3ppp/pqn1p3/3pP2b/Q2n2P1/5N1P/PP1NBP2/R1B2RK1 w kq - 0 14",
+                                                                                                          "children": [
+                                                                                                            {
+                                                                                                              "id": "94",
+                                                                                                              "name": "Move 9",
+                                                                                                              "fen": "r3kb1r/1p3ppp/pqn1p3/3pP2b/Q2N2P1/7P/PP1NBP2/R1B2RK1 b kq - 0 14",
+                                                                                                              "children": [
+                                                                                                                {
+                                                                                                                  "id": "95",
+                                                                                                                  "name": "Move 10",
+                                                                                                                  "fen": "r3kb1r/1p3ppp/p1n1p3/3pP2b/Q2q2P1/7P/PP1NBP2/R1B2RK1 w kq - 0 15",
+                                                                                                                  "children": []
+                                                                                                                }
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    }
+                                                                                                  ]
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": "54",
+                                          "name": "Move 1",
+                                          "fen": "r2qkbnr/pp2pppp/2n5/2ppP3/3P2b1/2P2N2/PP3PPP/RNBQKB1R w KQkq - 3 6",
+                                          "children": [
+                                            {
+                                              "id": "55",
+                                              "name": "Move 2",
+                                              "fen": "r2qkbnr/pp2pppp/2n5/2PpP3/6b1/2P2N2/PP3PPP/RNBQKB1R b KQkq - 0 6",
+                                              "children": [
+                                                {
+                                                  "id": "56",
+                                                  "name": "Move 3",
+                                                  "fen": "r2qkbnr/pp2pppp/8/2Ppn3/6b1/2P2N2/PP3PPP/RNBQKB1R w KQkq - 0 7",
+                                                  "children": [
+                                                    {
+                                                      "id": "57",
+                                                      "name": "Move 4",
+                                                      "fen": "r2qkbnr/pp2pppp/8/2PpN3/6b1/2P5/PP3PPP/RNBQKB1R b KQkq - 0 7",
+                                                      "children": [
+                                                        {
+                                                          "id": "58",
+                                                          "name": "Move 5",
+                                                          "fen": "r2qkbnr/pp2pppp/8/2PpN3/8/2P5/PP3PPP/RNBbKB1R w KQkq - 0 8",
+                                                          "children": [
+                                                            {
+                                                              "id": "59",
+                                                              "name": "Move 6",
+                                                              "fen": "r2qkbnr/pp2pppp/8/1BPpN3/8/2P5/PP3PPP/RNBbK2R b KQkq - 1 8",
+                                                              "children": [
+                                                                {
+                                                                  "id": "60",
+                                                                  "name": "Move 7",
+                                                                  "fen": "r3kbnr/pp1qpppp/8/1BPpN3/8/2P5/PP3PPP/RNBbK2R w KQkq - 2 9",
+                                                                  "children": [
+                                                                    {
+                                                                      "id": "61",
+                                                                      "name": "Move 8",
+                                                                      "fen": "r3kbnr/pp1Bpppp/8/2PpN3/8/2P5/PP3PPP/RNBbK2R b KQkq - 0 9",
+                                                                      "children": [
+                                                                        {
+                                                                          "id": "62",
+                                                                          "name": "Move 9",
+                                                                          "fen": "r2k1bnr/pp1Bpppp/8/2PpN3/8/2P5/PP3PPP/RNBbK2R w KQ - 1 10",
+                                                                          "children": [
+                                                                            {
+                                                                              "id": "63",
+                                                                              "name": "Move 10",
+                                                                              "fen": "r2k1bnr/pp1Bpppp/8/2PpN3/8/2P5/PP3PPP/RNBK3R b - - 0 10",
+                                                                              "children": []
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "10",
+                                      "name": "Move 1",
+                                      "fen": "r1bqkbnr/pp2pppp/2n5/2ppP3/3P4/2P1B3/PP3PPP/RN1QKBNR b KQkq - 2 5",
+                                      "children": [
+                                        {
+                                          "id": "11",
+                                          "name": "Move 2",
+                                          "fen": "r1bqkb1r/pp2pppp/2n4n/2ppP3/3P4/2P1B3/PP3PPP/RN1QKBNR w KQkq - 3 6",
+                                          "children": [
+                                            {
+                                              "id": "12",
+                                              "name": "Move 3",
+                                              "fen": "r1bqkb1r/pp2pppp/2n4n/2ppP3/3P4/2P1BN2/PP3PPP/RN1QKB1R b KQkq - 4 6",
+                                              "children": [
+                                                {
+                                                  "id": "25",
+                                                  "name": "Move 4",
+                                                  "fen": "r1bqkb1r/pp2pppp/2n4n/3pP3/3p4/2P1BN2/PP3PPP/RN1QKB1R w KQkq - 0 7",
+                                                  "children": [
+                                                    {
+                                                      "id": "26",
+                                                      "name": "Move 5",
+                                                      "fen": "r1bqkb1r/pp2pppp/2n4n/3pP3/3P4/4BN2/PP3PPP/RN1QKB1R b KQkq - 0 7",
+                                                      "children": [
+                                                        {
+                                                          "id": "27",
+                                                          "name": "Move 6",
+                                                          "fen": "r2qkb1r/pp2pppp/2n4n/3pP3/3P2b1/4BN2/PP3PPP/RN1QKB1R w KQkq - 1 8",
+                                                          "children": [
+                                                            {
+                                                              "id": "28",
+                                                              "name": "Move 7",
+                                                              "fen": "r2qkb1r/pp2pppp/2n4n/3pP3/3P2b1/4BN2/PP2BPPP/RN1QK2R b KQkq - 2 8",
+                                                              "children": [
+                                                                {
+                                                                  "id": "29",
+                                                                  "name": "Move 8",
+                                                                  "fen": "r2qkb1r/pp3ppp/2n1p2n/3pP3/3P2b1/4BN2/PP2BPPP/RN1QK2R w KQkq - 0 9",
+                                                                  "children": [
+                                                                    {
+                                                                      "id": "30",
+                                                                      "name": "Move 9",
+                                                                      "fen": "r2qkb1r/pp3ppp/2n1p2n/3pP3/3P2b1/4BN2/PP2BPPP/RN1Q1RK1 b kq - 1 9",
+                                                                      "children": [
+                                                                        {
+                                                                          "id": "31",
+                                                                          "name": "Move 10",
+                                                                          "fen": "r2qkb1r/pp3ppp/2n1p3/3pPn2/3P2b1/4BN2/PP2BPPP/RN1Q1RK1 w kq - 2 10",
+                                                                          "children": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": "13",
+                                              "name": "Move 1",
+                                              "fen": "r1bqkb1r/pp2pppp/2n4B/2ppP3/3P4/2P5/PP3PPP/RN1QKBNR b KQkq - 0 6",
+                                              "children": [
+                                                {
+                                                  "id": "14",
+                                                  "name": "Move 2",
+                                                  "fen": "r1bqkb1r/pp2pp1p/2n4p/2ppP3/3P4/2P5/PP3PPP/RN1QKBNR w KQkq - 0 7",
+                                                  "children": [
+                                                    {
+                                                      "id": "15",
+                                                      "name": "Move 3",
+                                                      "fen": "r1bqkb1r/pp2pp1p/2n4p/2ppP3/3P4/2P2N2/PP3PPP/RN1QKB1R b KQkq - 1 7",
+                                                      "children": [
+                                                        {
+                                                          "id": "16",
+                                                          "name": "Move 4",
+                                                          "fen": "r1bqkb1r/pp2pp1p/2n4p/3pP3/3p4/2P2N2/PP3PPP/RN1QKB1R w KQkq - 0 8",
+                                                          "children": [
+                                                            {
+                                                              "id": "17",
+                                                              "name": "Move 5",
+                                                              "fen": "r1bqkb1r/pp2pp1p/2n4p/3pP3/3P4/5N2/PP3PPP/RN1QKB1R b KQkq - 0 8",
+                                                              "children": [
+                                                                {
+                                                                  "id": "18",
+                                                                  "name": "Move 6",
+                                                                  "fen": "r2qkb1r/pp2pp1p/2n4p/3pP3/3P2b1/5N2/PP3PPP/RN1QKB1R w KQkq - 1 9",
+                                                                  "children": [
+                                                                    {
+                                                                      "id": "19",
+                                                                      "name": "Move 7",
+                                                                      "fen": "r2qkb1r/pp2pp1p/2n4p/3pP3/3P2b1/5N2/PP2BPPP/RN1QK2R b KQkq - 2 9",
+                                                                      "children": [
+                                                                        {
+                                                                          "id": "20",
+                                                                          "name": "Move 8",
+                                                                          "fen": "r2qkb1r/pp3p1p/2n1p2p/3pP3/3P2b1/5N2/PP2BPPP/RN1QK2R w KQkq - 0 10",
+                                                                          "children": [
+                                                                            {
+                                                                              "id": "21",
+                                                                              "name": "Move 9",
+                                                                              "fen": "r2qkb1r/pp3p1p/2n1p2p/3pP3/3P2b1/5N2/PP2BPPP/RN1Q1RK1 b kq - 1 10",
+                                                                              "children": [
+                                                                                {
+                                                                                  "id": "22",
+                                                                                  "name": "Move 10",
+                                                                                  "fen": "r2qkb1r/pp3p1p/2n1p2p/3pP3/3P4/5b2/PP2BPPP/RN1Q1RK1 w kq - 0 11",
+                                                                                  "children": [
+                                                                                    {
+                                                                                      "id": "23",
+                                                                                      "name": "Move 11",
+                                                                                      "fen": "r2qkb1r/pp3p1p/2n1p2p/3pP3/3P4/5B2/PP3PPP/RN1Q1RK1 b kq - 0 11",
+                                                                                      "children": [
+                                                                                        {
+                                                                                          "id": "24",
+                                                                                          "name": "Move 12",
+                                                                                          "fen": "r3kb1r/pp3p1p/1qn1p2p/3pP3/3P4/5B2/PP3PPP/RN1Q1RK1 w kq - 1 12",
+                                                                                          "children": []
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "32",
+                                      "name": "Move 1",
+                                      "fen": "r1bqkbnr/pp2pppp/2n5/1BppP3/3P4/2P5/PP3PPP/RNBQK1NR b KQkq - 2 5",
+                                      "children": [
+                                        {
+                                          "id": "33",
+                                          "name": "Move 2",
+                                          "fen": "r1b1kbnr/pp2pppp/2n5/qBppP3/3P4/2P5/PP3PPP/RNBQK1NR w KQkq - 3 6",
+                                          "children": [
+                                            {
+                                              "id": "34",
+                                              "name": "Move 3",
+                                              "fen": "r1b1kbnr/pp2pppp/2B5/q1ppP3/3P4/2P5/PP3PPP/RNBQK1NR b KQkq - 0 6",
+                                              "children": [
+                                                {
+                                                  "id": "38",
+                                                  "name": "Move 4",
+                                                  "fen": "r1b1kbnr/p3pppp/2p5/q1ppP3/3P4/2P5/PP3PPP/RNBQK1NR w KQkq - 0 7",
+                                                  "children": [
+                                                    {
+                                                      "id": "39",
+                                                      "name": "Move 5",
+                                                      "fen": "r1b1kbnr/p3pppp/2p5/q1ppP3/3P4/2P5/PP2NPPP/RNBQK2R b KQkq - 1 7",
+                                                      "children": [
+                                                        {
+                                                          "id": "42",
+                                                          "name": "Move 6",
+                                                          "fen": "r1b1kbnr/p3pppp/2p5/q2pP3/3p4/2P5/PP2NPPP/RNBQK2R w KQkq - 0 8",
+                                                          "children": [
+                                                            {
+                                                              "id": "43",
+                                                              "name": "Move 7",
+                                                              "fen": "r1b1kbnr/p3pppp/2p5/q2pP3/3N4/2P5/PP3PPP/RNBQK2R b KQkq - 0 8",
+                                                              "children": [
+                                                                {
+                                                                  "id": "44",
+                                                                  "name": "Move 8",
+                                                                  "fen": "r1b1kbnr/p4ppp/2p1p3/q2pP3/3N4/2P5/PP3PPP/RNBQK2R w KQkq - 0 9",
+                                                                  "children": [
+                                                                    {
+                                                                      "id": "45",
+                                                                      "name": "Move 9",
+                                                                      "fen": "r1b1kbnr/p4ppp/2N1p3/q2pP3/8/2P5/PP3PPP/RNBQK2R b KQkq - 0 9",
+                                                                      "children": [
+                                                                        {
+                                                                          "id": "48",
+                                                                          "name": "Move 10",
+                                                                          "fen": "r1b1kbnr/p1q2ppp/2N1p3/3pP3/8/2P5/PP3PPP/RNBQK2R w KQkq - 1 10",
+                                                                          "children": [
+                                                                            {
+                                                                              "id": "49",
+                                                                              "name": "Move 11",
+                                                                              "fen": "r1b1kbnr/p1q2ppp/2N1p3/3pP3/Q7/2P5/PP3PPP/RNB1K2R b KQkq - 2 10",
+                                                                              "children": [
+                                                                                {
+                                                                                  "id": "52",
+                                                                                  "name": "Move 12",
+                                                                                  "fen": "r3kbnr/p1qb1ppp/2N1p3/3pP3/Q7/2P5/PP3PPP/RNB1K2R w KQkq - 3 11",
+                                                                                  "children": []
+                                                                                }
+                                                                              ]
+                                                                            },
+                                                                            {
+                                                                              "id": "50",
+                                                                              "name": "Move 1",
+                                                                              "fen": "r1b1kbnr/p1q2ppp/4p3/3pP3/3N4/2P5/PP3PPP/RNBQK2R b KQkq - 2 10",
+                                                                              "children": [
+                                                                                {
+                                                                                  "id": "51",
+                                                                                  "name": "Move 2",
+                                                                                  "fen": "r1b1kbnr/p4ppp/4p3/3pq3/3N4/2P5/PP3PPP/RNBQK2R w KQkq - 0 11",
+                                                                                  "children": []
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "id": "46",
+                                                                      "name": "Move 1",
+                                                                      "fen": "r1b1kbnr/p4ppp/2p1p3/q2pP3/3N4/2P5/PP3PPP/RNBQ1RK1 b kq - 1 9",
+                                                                      "children": [
+                                                                        {
+                                                                          "id": "47",
+                                                                          "name": "Move 2",
+                                                                          "fen": "r1b1kb1r/p3nppp/2p1p3/q2pP3/3N4/2P5/PP3PPP/RNBQ1RK1 w kq - 2 10",
+                                                                          "children": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": "40",
+                                                      "name": "Move 1",
+                                                      "fen": "r1b1kbnr/p3pppp/2p5/q1PpP3/8/2P5/PP3PPP/RNBQK1NR b KQkq - 0 7",
+                                                      "children": [
+                                                        {
+                                                          "id": "41",
+                                                          "name": "Move 2",
+                                                          "fen": "r1b1kbnr/p3pppp/2p5/2qpP3/8/2P5/PP3PPP/RNBQK1NR w KQkq - 0 8",
+                                                          "children": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": "35",
+                                              "name": "Move 1",
+                                              "fen": "r1b1kbnr/pp2pppp/2n5/qBppP3/P2P4/2P5/1P3PPP/RNBQK1NR b KQkq a3 0 6",
+                                              "children": [
+                                                {
+                                                  "id": "36",
+                                                  "name": "Move 2",
+                                                  "fen": "r1b1kbnr/pp2pppp/2n5/qB1pP3/P2p4/2P5/1P3PPP/RNBQK1NR w KQkq - 0 7",
+                                                  "children": [
+                                                    {
+                                                      "id": "37",
+                                                      "name": "Move 3",
+                                                      "fen": "r1b1kbnr/pp2pppp/2n5/qB1pP3/P2Q4/2P5/1P3PPP/RNB1K1NR b KQkq - 0 7",
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
