@@ -172,10 +172,11 @@ export default function WithMoveValidation({ fen }) {
             onDrop={onDrop}
             onMouseOverSquare={onMouseOverSquare}
             onMouseOutSquare={onMouseOutSquare}
+            /*            
             boardStyle={{
               borderRadius: "5px",
               boxShadow: `0 5px 15px rgba(0, 0, 0, 0.5)`
-            }}
+            }} */
             squareStyles={squareStyles}
             dropSquareStyle={dropSquareStyle}
             onDragOverSquare={onDragOverSquare}

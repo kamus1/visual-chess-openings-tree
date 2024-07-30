@@ -25,9 +25,10 @@ export function Home() {
       <div className="home-container">
         <div className="search-opening">
           <p>Search Opening</p>
-          <div>
-            <Link to={`${originRoute}/tree/caro-kann`}>View Caro Kann</Link>
-            |
+          <div className="links-container">
+            <Link to={`${originRoute}/tree/caro-kann`} className="custom-link">View Caro Kann</Link>
+            <Link to={`${originRoute}/tree/tree1`} className="custom-link">View Tree 1</Link>
+
           </div>
         </div>
 
@@ -50,7 +51,7 @@ export function Home() {
         <div className="interactive-tree">
           <p>Interactive Tree</p>
           <div>
-            <Link to={`${originRoute}/tree/tree1`}>View Tree 1</Link>
+          <Link to={`${originRoute}/interactive-tree`} className="custom-link">Go to Interactive Tree</Link>
           </div>
         </div>
 
@@ -72,6 +73,20 @@ export function Home() {
 
 const Container = styled.div`
   --border-radius-card: 10px;
+
+  .links-container{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+  }
+
+  .custom-link{
+    color: #595E68;
+  }
+  .custom-link:hover{
+      color: #3DAA3E;
+    }
+
 
   .home-container {
     display: flex;
@@ -112,14 +127,22 @@ const Container = styled.div`
     width: 100%;
     height: 100%;
     margin-bottom: 15px;
-    padding: 10px;
-    padding-top: 0px;
+    padding: 20px;
+    padding-top: 5px;
   }
 
   .home-container > div > div > textarea {
     width: 100%;
     height: 150px;
+    padding: 5px;
+    margin-top: 15px;
+    border-radius: 4px;
     margin-bottom: 15px;
+    overflow: hidden; 
+    resize: none; 
+    border: 1px solid #BDC5BE;
+    background: fixed;
+    color: #424242;
   }
 
   .nav-bar__name {
@@ -138,16 +161,6 @@ const Container = styled.div`
     width: 100%;
   }
 
-  .home-container > div > div > textarea {
-  width: 95%;
-  height: 160px;
-  margin-bottom: 15px;
-  overflow: hidden; 
-  resize: none; 
-  border: 1px solid #BDC5BE;
-  background: fixed;
-  color: #424242;
-}
 
 
 button {
@@ -157,12 +170,13 @@ button {
   font-size: 0.8em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #4c8ab6;
+  background-color: #EFF6FA;
   cursor: pointer;
   transition: border-color 0.25s;
+  border-color: #E3E3E3;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #64985C;
 }
 button:focus,
 button:focus-visible {

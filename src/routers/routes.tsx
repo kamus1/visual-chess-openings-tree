@@ -6,6 +6,7 @@ import { LoadTree } from '../pages/LoadTree';
 import { Tools } from '../pages/Tools';
 
 import OrgChartTree from '../pages/OrgChartTree';
+import InteractiveTree from '../pages/InteractiveTree';
 
 export function MyRoutes() {
     const originRoute ="/visual-chess-openings-tree"
@@ -18,6 +19,7 @@ export function MyRoutes() {
             <Route path={`${originRoute}/tree/:treeName`} element={<OrgChartTree treeData=""/>} />
             <Route path={`${originRoute}/tree-loaded`} element={<LoadTree />} />
             <Route path={`${originRoute}/tools`} element={<Tools />} />
+            <Route path={`${originRoute}/interactive-tree`} element={<InteractiveTree treeData=""/>} />
         </Routes>
     );
     }

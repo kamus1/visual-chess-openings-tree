@@ -1,31 +1,15 @@
-import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
 import Tree from 'react-d3-tree';
-import CustomNode from '../components/CustomNode';
+import CustomNode from '../components/InteractiveCustomNode';
 
 import initialOrgChart from '../data/tree1.json';
-import caroKann from '../data/caro-kann.json';
+import { useState } from 'react';
 
-const treeDataMap = {
-  'tree1': initialOrgChart,
-  'caro-kann': caroKann,
-  // 
-};
+const InteractiveTree = () => {
+  const [orgChart, setOrgChart] = useState(initialOrgChart)
 
-const OrgChartTree = ({ treeData }) => {
-  const { treeName } = useParams();
-  const [orgChart, setOrgChart] = useState(treeData || treeDataMap[treeName]);
-
-  useEffect(() => {
-    if (!treeData) {
-      setOrgChart(treeDataMap[treeName]);
-    }
-  }, [treeName, treeData]);
-
-
-  const addNode = (parentName, newNode) => {
+  const addNode = (parentId, newNode) => {
     const addNodeRecursively = (node) => {
-      if (node.name === parentName) {
+      if (node.id === parentId) {
         node.children = node.children || [];
         node.children.push(newNode);
         return true;
@@ -46,8 +30,13 @@ const OrgChartTree = ({ treeData }) => {
   };
 
   const handleAddNode = (nodeData) => {
-    const newNode = { name: 'New Worker' };
-    addNode(nodeData.name, newNode);
+    console.log(nodeData);
+    const newNode = { 
+      name: 'New Worker',
+      id: nodeData.id + '1',
+      fen: 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1'
+    };
+    addNode(nodeData.id, newNode);
   };
 
   return (
@@ -57,7 +46,7 @@ const OrgChartTree = ({ treeData }) => {
           data={orgChart}
           orientation="vertical"
           translate={{ x: 500, y: 160 }}
-          nodeSize={{ x: 500, y: 500 }}
+          nodeSize={{ x: 500, y: 700 }}
           pathFunc="straight"
           collapsible={false}
           renderCustomNodeElement={(rd3tProps) => (
@@ -73,4 +62,4 @@ const OrgChartTree = ({ treeData }) => {
   );
 };
 
-export default OrgChartTree;
+export default InteractiveTree;

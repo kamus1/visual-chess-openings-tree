@@ -1,4 +1,4 @@
-import WithMoveValidation from "./integrations/WithMoveValidation.jsx";
+import WithMoveValidation from "../integrations/WithMoveValidation.jsx";
 
 // custom node component
 const CustomNode = ({ nodeDatum, toggleNode, onAddClick }) => {
@@ -35,4 +35,3 @@ const CustomNode = ({ nodeDatum, toggleNode, onAddClick }) => {
 };
 
 export default CustomNode;
-
