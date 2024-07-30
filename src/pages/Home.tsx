@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { Link, useNavigate } from "react-router-dom";
+import { stringPgnToJson } from "../tools/pgnToJson";
 
 export function Home() {
   const originRoute = "/visual-chess-openings-tree";
@@ -16,7 +17,12 @@ export function Home() {
     if (customPgn.trim() === '') {
       alert('Please enter PGN before navigating.');
     } else {
-      navigate(`${originRoute}/tree-loaded`, { state: { pgn: customPgn } });
+      try {
+        const jsonData = stringPgnToJson(customPgn);
+        navigate(`${originRoute}/tree-loaded`, { state: { jsonData } });
+      } catch (error) {
+        alert('Invalid PGN. Please enter a valid PGN.');
+      }
     }
   };
 
@@ -170,13 +176,12 @@ button {
   font-size: 0.8em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #EFF6FA;
+  background-color: #E8E8E9;
   cursor: pointer;
   transition: border-color 0.25s;
-  border-color: #E3E3E3;
 }
 button:hover {
-  border-color: #64985C;
+  border-color: #727385;
 }
 button:focus,
 button:focus-visible {

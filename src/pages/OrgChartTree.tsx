@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Tree from 'react-d3-tree';
 import CustomNode from '../components/CustomNode';
@@ -16,12 +16,17 @@ const OrgChartTree = ({ treeData }) => {
   const { treeName } = useParams();
   const [orgChart, setOrgChart] = useState(treeData || treeDataMap[treeName]);
 
+  const [isSidebarOpen, setSidebarOpen] = useState(false);
+
   useEffect(() => {
     if (!treeData) {
       setOrgChart(treeDataMap[treeName]);
     }
   }, [treeName, treeData]);
 
+  const toggleSidebar = () => {
+    setSidebarOpen(!isSidebarOpen);
+  };
 
   const addNode = (parentName, newNode) => {
     const addNodeRecursively = (node) => {
